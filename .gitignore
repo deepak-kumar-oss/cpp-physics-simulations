@@ -1,0 +1,20 @@
+*.exe
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Object files
+*.o
+*.obj
+
+# Build folders
+build/
+bin/
+
+
+clothSimulation.cpp
+game.cpp
+
+.vscode

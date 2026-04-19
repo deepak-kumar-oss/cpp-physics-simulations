@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run C++",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "${file}",
+        "-o",
+        "${fileBasenameNoExtension}",
+      ],
+      "group": "build"
+    },
+    {
+      "label": "Run SFML",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "*.cpp",
+        "-o",
+        "${fileBasenameNoExtension}",
+        "-lsfml-graphics",
+        "-lsfml-window",
+        "-lsfml-system"
+      ],
+      "group": "build"
+    }
+  ]
+}

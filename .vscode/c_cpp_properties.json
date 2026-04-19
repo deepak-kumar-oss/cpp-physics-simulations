@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+  //              "C:\\msys64\\ucrt64\\include\\c++\\15.2.0",
+                "C:\\msys64\\ucrt64\\include"
+                // "C:\\msys64\\ucrt64\\include\\c++\\15.2.0\\x86_64-w64-mingw32",
+                // "C:\\msys64\\ucrt64\\include\\SFML",
+                // "C:\\msys64\\ucrt64\\include\\SFML\\System",
+                // "C:\\msys64\\ucrt64\\include\\SFML\\Window",
+                //\\ "C:\\msys64\\ucrt64\\include\\SFML\\Graphics"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.26100.0",
+            "compilerPath": "g++.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-gcc-x64"
+        }
+    ],
+    "version": 4
+}
