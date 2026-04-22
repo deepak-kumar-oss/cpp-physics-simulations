@@ -131,7 +131,6 @@ int main(){
             if(event->is<sf::Event::MouseButtonReleased>())
                 selectedBall = -1;
 
-            // 🔄 RESET
             if(event->is<sf::Event::KeyPressed>()){
                 if(event->getIf<sf::Event::KeyPressed>()->code == sf::Keyboard::Key::R)
                     balls.clear();
